@@ -1,0 +1,1700 @@
+2017-02-09 13:23:17 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:23:17 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646597.769
+    'REQUEST_TIME' => 1486646597
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:23:41 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:23:41 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646621.8946
+    'REQUEST_TIME' => 1486646621
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:25:03 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:25:03 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646703.2812
+    'REQUEST_TIME' => 1486646703
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:25:34 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:25:34 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646734.3138
+    'REQUEST_TIME' => 1486646734
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:27:55 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: hello/index' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('index', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('index', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "hello/index".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-09 13:27:55 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646875.6918
+    'REQUEST_TIME' => 1486646875
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:28:20 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: hello/index' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('index', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('index', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "hello/index".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-09 13:28:20 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646900.6592
+    'REQUEST_TIME' => 1486646900
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:28:26 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: hello/' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "hello".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-09 13:28:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646906.69
+    'REQUEST_TIME' => 1486646906
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:28:30 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: hello/' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "hello".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-09 13:28:30 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646910.1486
+    'REQUEST_TIME' => 1486646910
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:28:45 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Hello".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('Hello', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('Hello', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "Hello".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('Hello', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-09 13:28:45 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486646925.7071
+    'REQUEST_TIME' => 1486646925
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'Hello'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:31:33 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: hello/' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "hello".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-09 13:31:33 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647093.3491
+    'REQUEST_TIME' => 1486647093
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:32:02 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown alias: -m' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#5 {main}
+2017-02-09 13:32:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647122.2512
+    'REQUEST_TIME' => 1486647122
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+        2 => '-m=hello'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:32:12 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: hello/index' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('index', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('index', Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "hello/index".' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php:179
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-09 13:32:11 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647131.9277
+    'REQUEST_TIME' => 1486647131
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:33:18 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:33:18 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647198.6496
+    'REQUEST_TIME' => 1486647198
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:42:38 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Missing required arguments: name' in D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php:157
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('who', Array)
+#3 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('who', Array)
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/who', Array)
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/who', Array)
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#8 {main}
+2017-02-09 13:42:38 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647758.8359
+    'REQUEST_TIME' => 1486647758
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/who'
+    ]
+    'argc' => 2
+]
+2017-02-09 13:45:54 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:45:54 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647954.0092
+    'REQUEST_TIME' => 1486647954
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '-r=1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:45:58 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:45:58 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647958.1213
+    'REQUEST_TIME' => 1486647958
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '--r=1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:46:12 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:46:12 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647972.0944
+    'REQUEST_TIME' => 1486647972
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '--r==1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:46:24 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:46:24 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647984.0282
+    'REQUEST_TIME' => 1486647984
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '--rev==1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:46:26 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:46:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486647986.7556
+    'REQUEST_TIME' => 1486647986
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '--rev=1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:47:51 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:47:51 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486648071.2134
+    'REQUEST_TIME' => 1486648071
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '-r=1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:48:25 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:48:25 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486648105.0685
+    'REQUEST_TIME' => 1486648105
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '--rev=1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:48:32 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello/index')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello/index', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello/index', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:48:32 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486648112.6161
+    'REQUEST_TIME' => 1486648112
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello/index'
+        2 => '-r=1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:48:42 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\blog\console\controllers\HelloController.php(8): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 8, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\phpStudy\\WWW...')
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(562): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('hello')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('hello')
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('hello', Array)
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('hello', Array)
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#11 {main}
+2017-02-09 13:48:42 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486648122.8231
+    'REQUEST_TIME' => 1486648122
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+        1 => 'hello'
+        2 => '-r=1'
+    ]
+    'argc' => 3
+]
+2017-02-09 13:54:52 [-][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of console\controllers\HelloController::options() should be compatible with yii\console\Controller::options($actionID)' in D:\phpStudy\WWW\blog\console\controllers\HelloController.php:78
+Stack trace:
+#0 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'D:\\phpStudy\\WWW...', 78, Array)
+#1 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\BaseYii.php(288): yii\BaseYii::autoload()
+#2 [internal function]: yii\BaseYii::autoload('console\\control...')
+#3 [internal function]: spl_autoload_call('console\\control...')
+#4 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\controllers\HelpController.php(171): class_exists('console\\control...')
+#5 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\controllers\HelpController.php(154): yii\console\controllers\HelpController->validateControllerClass('console\\control...')
+#6 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\controllers\HelpController.php(77): yii\console\controllers\HelpController->getModuleCommands(Object(yii\console\Application))
+#7 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\controllers\HelpController.php(89): yii\console\controllers\HelpController->getCommands()
+#8 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\controllers\HelpController.php(184): yii\console\controllers\HelpController->getCommandDescriptions()
+#9 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\controllers\HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#10 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#11 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('', Array)
+#14 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#15 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('', Array)
+#16 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('', Array)
+#17 D:\phpStudy\WWW\blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#18 D:\phpStudy\WWW\blog\yii(27): yii\base\Application->run()
+#19 {main}
+2017-02-09 13:54:52 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\admin\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\admin'
+    'LOCALAPPDATA' => 'C:\\Users\\admin\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\phpStudy\\;D:\\phpStudy\\apache\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\mysql\\bin;F:\\xampps\\xampps\\mysql\\bin;E:\\Git\\cmd;C:\\Windows\\System32\\pthreadVC2.dll;D:\\mongodb\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\admin\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'admin-PC'
+    'USERNAME' => 'admin'
+    'USERPROFILE' => 'C:\\Users\\admin'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\phpStudy\\WWW\\blog\\'
+    'PHP_SELF' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_NAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'SCRIPT_FILENAME' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\WWW\\blog\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486648492.1965
+    'REQUEST_TIME' => 1486648492
+    'argv' => [
+        0 => 'D:\\phpStudy\\WWW\\blog\\yii'
+    ]
+    'argc' => 1
+]
